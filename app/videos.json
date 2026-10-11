@@ -1,0 +1,216 @@
+{
+ "_comment": "Curated, verified YouTube videos per model id (English). Used when the YouTube API key is missing or refused. Each entry: {id,title,channel}.",
+ "logreg": [
+  {
+   "id": "yIYKR4sgzI8",
+   "title": "StatQuest: Logistic Regression",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "vN5cNN2-HWE",
+   "title": "Logistic Regression Details Pt1: Coefficients",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "EKm0spFxFG4",
+   "title": "Logistic Regression in 3 Minutes",
+   "channel": "3-Minute Data Science"
+  }
+ ],
+ "linreg": [
+  {
+   "id": "nk2CQITm_eo",
+   "title": "Linear Regression, Clearly Explained!!!",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "PaFPbb66DxQ",
+   "title": "The Main Ideas of Fitting a Line to Data (Least Squares)",
+   "channel": "StatQuest with Josh Starmer"
+  }
+ ],
+ "ridge": [
+  {
+   "id": "Q81RR3yKn30",
+   "title": "Regularization Part 1: Ridge (L2) Regression",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "5asL5Eq2x0A",
+   "title": "Ridge Regression",
+   "channel": "ritvikmath"
+  }
+ ],
+ "lasso": [
+  {
+   "id": "NGf0voTMlcs",
+   "title": "Regularization Part 2: Lasso (L1) Regression",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "jbwSCwoT51M",
+   "title": "Lasso Regression",
+   "channel": "ritvikmath"
+  }
+ ],
+ "elastic": [
+  {
+   "id": "1dKRdX9bfIo",
+   "title": "Regularization Part 3: Elastic Net Regression",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "Q81RR3yKn30",
+   "title": "Regularization Part 1: Ridge (L2) Regression",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "NGf0voTMlcs",
+   "title": "Regularization Part 2: Lasso (L1) Regression",
+   "channel": "StatQuest with Josh Starmer"
+  }
+ ],
+ "knn": [
+  {
+   "id": "HVXime0nQeI",
+   "title": "StatQuest: K-nearest neighbors, Clearly Explained",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "UqYde-LULfs",
+   "title": "How kNN algorithm works",
+   "channel": "Thales Sehn Körting"
+  },
+  {
+   "id": "0p0o5cmgLdE",
+   "title": "K Nearest Neighbors | Intuitive explained",
+   "channel": "Intuitive Machine Learning"
+  }
+ ],
+ "svm": [
+  {
+   "id": "efR1C6CvhmE",
+   "title": "Support Vector Machines Part 1 (of 3): Main Ideas!!!",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "_YPScrckx28",
+   "title": "Support Vector Machine (SVM) in 2 minutes",
+   "channel": "Visually Explained"
+  },
+  {
+   "id": "_PwhiWxHK8o",
+   "title": "Learning: Support Vector Machines",
+   "channel": "MIT OpenCourseWare"
+  }
+ ],
+ "tree": [
+  {
+   "id": "_L39rN6gz7Y",
+   "title": "Decision and Classification Trees, Clearly Explained!!!",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "ZVR2Way4nwQ",
+   "title": "Decision Tree Classification Clearly Explained!",
+   "channel": "Normalized Nerd"
+  },
+  {
+   "id": "7VeUPuFGJHk",
+   "title": "StatQuest: Decision Trees",
+   "channel": "StatQuest with Josh Starmer"
+  }
+ ],
+ "rf": [
+  {
+   "id": "J4Wdy0Wc_xQ",
+   "title": "StatQuest: Random Forests Part 1",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "v6VJ2RO66Ag",
+   "title": "Random Forest Algorithm Clearly Explained!",
+   "channel": "Normalized Nerd"
+  },
+  {
+   "id": "gkXX4h3qYm4",
+   "title": "What is Random Forest?",
+   "channel": "IBM Technology"
+  }
+ ],
+ "gb": [
+  {
+   "id": "3CC4N4z3GJc",
+   "title": "Gradient Boost Part 1 (of 4): Regression Main Ideas",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "jxuNLH5dXCs",
+   "title": "Gradient Boost Part 3 (of 4): Classification",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "TyvYZ26alZs",
+   "title": "Visual Guide to Gradient Boosted Trees (xgboost)",
+   "channel": "Econoscent"
+  }
+ ],
+ "ada": [
+  {
+   "id": "LsK-xG1cLYA",
+   "title": "AdaBoost, Clearly Explained",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "NLRO1-jp5F8",
+   "title": "What is AdaBoost (BOOSTING TECHNIQUES)",
+   "channel": "Krish Naik"
+  }
+ ],
+ "nb": [
+  {
+   "id": "O2L2Uv9pdDA",
+   "title": "Naive Bayes, Clearly Explained!!!",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "l3dZ6ZNFjo0",
+   "title": "Naive Bayes Classifier | Naive Bayes Algorithm",
+   "channel": "Simplilearn"
+  }
+ ],
+ "mlp": [
+  {
+   "id": "CqOfi41LfDw",
+   "title": "The Essential Main Ideas of Neural Networks",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "aircAruvnKk",
+   "title": "But what is a neural network? | Deep learning chapter 1",
+   "channel": "3Blue1Brown"
+  },
+  {
+   "id": "bfmFfD2RIcg",
+   "title": "Neural Network In 5 Minutes",
+   "channel": "Simplilearn"
+  }
+ ],
+ "extra": [
+  {
+   "id": "J4Wdy0Wc_xQ",
+   "title": "StatQuest: Random Forests Part 1",
+   "channel": "StatQuest with Josh Starmer"
+  },
+  {
+   "id": "v6VJ2RO66Ag",
+   "title": "Random Forest Algorithm Clearly Explained!",
+   "channel": "Normalized Nerd"
+  },
+  {
+   "id": "gkXX4h3qYm4",
+   "title": "What is Random Forest?",
+   "channel": "IBM Technology"
+  }
+ ]
+}

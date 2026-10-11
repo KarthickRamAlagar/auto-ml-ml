@@ -1,0 +1,22 @@
+{
+  // Auto ML ML service (App 3): Python engine in a Cloudflare Container, started by this Worker.
+  // Requires the Workers Paid plan and Docker on the machine that runs `npm run deploy` (wrangler builds the image).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "auto-ml-ml",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "observability": { "enabled": true },
+  "workers_dev": true, // keep it reachable for testing; set false once the backend uses the service binding
+
+  "containers": [
+    {
+      "class_name": "MlContainer",
+      "image": "../Dockerfile",
+      "image_build_context": "..",
+      "instance_type": "standard-3", // 2 vCPU, 8 GiB: two trainings run side by side (JOB_WORKERS=2); use standard-2 (1 vCPU, 6 GiB) to spend less and set JOB_WORKERS=1
+      "max_instances": 1 // single instance: job state is in memory
+    }
+  ],
+  "durable_objects": { "bindings": [{ "name": "ML_CONTAINER", "class_name": "MlContainer" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["MlContainer"] }]
+}
